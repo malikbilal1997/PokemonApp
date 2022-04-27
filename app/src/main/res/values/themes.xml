@@ -1,0 +1,154 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.PokemonApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/green_300</item>
+        <item name="colorPrimaryVariant">@color/green_500</item>
+        <!-- Secondary brand color. -->
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/green_300</item>
+        <item name="colorSecondaryVariant">@color/green_500</item>
+        <!-- Status bar color. -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSurface</item>
+
+    </style>
+
+
+    <!-- Styles for Material Buttons -->
+
+    <style name="TextButtonSmall" parent="Widget.MaterialComponents.Button.TextButton">
+
+        <item name="android:minWidth">0dp</item>
+
+        <item name="textAllCaps">false</item>
+
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+
+        <item name="cornerRadius">@dimen/_8sdp</item>
+
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/ubuntu_medium</item>
+
+    </style>
+
+    <style name="TextButtonNormal" parent="Widget.MaterialComponents.Button.TextButton">
+
+        <item name="minWidth">0dp</item>
+
+        <item name="textAllCaps">false</item>
+
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+
+        <item name="cornerRadius">@dimen/_8sdp</item>
+
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/ubuntu_medium</item>
+
+    </style>
+
+    <style name="OutlineButtonSmall" parent="Widget.MaterialComponents.Button.OutlinedButton">
+
+        <item name="textAllCaps">false</item>
+
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+
+        <item name="cornerRadius">@dimen/_8sdp</item>
+
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/ubuntu_medium</item>
+
+    </style>
+
+    <style name="OutlineButtonNormal" parent="Widget.MaterialComponents.Button.OutlinedButton">
+
+        <item name="textAllCaps">false</item>
+
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+
+        <item name="cornerRadius">@dimen/_8sdp</item>
+
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/ubuntu_medium</item>
+
+    </style>
+
+    <!-- Bold Font Styles -->
+    <style name="TextBoldExtraLarge">
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="fontFamily">@font/ubuntu_bold</item>
+    </style>
+
+    <style name="TextBoldLarge">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="fontFamily">@font/ubuntu_bold</item>
+    </style>
+
+    <style name="TextBoldMedium">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="fontFamily">@font/ubuntu_bold</item>
+    </style>
+
+    <style name="TextBoldNormal">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="fontFamily">@font/ubuntu_bold</item>
+    </style>
+
+    <style name="TextBoldSmall">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/ubuntu_bold</item>
+    </style>
+
+    <!-- Medium Font Styles -->
+    <style name="TextMediumLarge">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="fontFamily">@font/ubuntu_medium</item>
+    </style>
+
+    <style name="TextMediumMedium">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="fontFamily">@font/ubuntu_medium</item>
+    </style>
+
+    <style name="TextMediumNormal">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="fontFamily">@font/ubuntu_medium</item>
+    </style>
+
+    <style name="TextMediumSmall">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/ubuntu_medium</item>
+    </style>
+
+    <style name="TextMediumExtraSmall">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="fontFamily">@font/ubuntu_medium</item>
+    </style>
+
+    <!-- Regular Font Styles -->
+    <style name="TextRegularMedium">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="fontFamily">@font/ubuntu_regular</item>
+    </style>
+
+    <style name="TextRegularNormal">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="fontFamily">@font/ubuntu_regular</item>
+    </style>
+
+    <style name="TextRegularSmall">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/ubuntu_regular</item>
+    </style>
+
+    <style name="TextRegularExtraSmall">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="fontFamily">@font/ubuntu_regular</item>
+    </style>
+
+</resources>
